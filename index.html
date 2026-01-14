@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Goat Disease Diagnosis Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Goat Disease Diagnosis Tool</h1>
+<img src="goat.jfif" alt="goat">
+<img src="h.jfif" alt="kkk">
+
+<div class="container">
+  <p><strong>Instructions:</strong> Type at least two signs or symptoms separated by spaces or commas.</p>
+
+  <textarea id="symptomsInput" placeholder="Example: diarrhea weight loss pale gums coughing fever"></textarea>
+  
+  <button onclick="diagnose()">Analyze Symptoms</button>
+  <button onclick="contactVet()">Contact Vet via WhatsApp</button>
+
+  <div id="results" class="result"></div>
+
+  <p class="note">
+    ⚠️ This tool provides guidance only and does not replace veterinary diagnosis.
+  </p>
+</div>
+
+<div id="vetContacts" style="display:none; margin-top:30px;">
+  <h2>📞 Contact a Veterinarian in Malawi</h2>
+
+  <div class="card">
+    <h3>Malawi Veterinary Association (MVA)</h3>
+    <p>
+      <a href="tel:+265997952861">+265 997 952 861</a> |
+      <a href="tel:+265995943034">+265 995 943 034</a>
+    </p>
+    <p>
+      <a href="mailto:mva.malawi@gmail.com">mva.malawi@gmail.com</a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Animalia Livestock Consultancy & Veterinary Services (Blantyre)</h3>
+    <p>
+      <a href="tel:+265996914702">+265 996 914 702</a> |
+      <a href="tel:+265994861774">+265 994 861 774</a>
+    </p>
+    <p>
+      <a href="mailto:info@animaliavetmw.com">info@animaliavetmw.com</a>
+    </p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
