@@ -1,0 +1,2 @@
+# goatdoc
+got diagnosisi
